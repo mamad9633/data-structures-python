@@ -22,7 +22,7 @@ s.push(2)
 
 # Visualize
 s.visualize()
-
+```
 ## API Reference
 - `push(item)`: Add to top
 - `pop()`: Remove from top

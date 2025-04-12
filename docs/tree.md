@@ -30,14 +30,4 @@ bst.inorder_traversal()
 
 # Visualize
 bst.visualize()
-
-## API Reference
-- `insert(data)`: Insert new node
-- `search(data)`: Find node
-- `inorder_traversal()`: Print inorder
-- `visualize()`: Show tree structure
-
-## Time Complexity
-- Insert: O(log n)
-- Search: O(log n)
-- Traversal: O(n)
+```

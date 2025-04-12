@@ -11,7 +11,6 @@ Our Queue implementation includes:
 - `isEmpty`: Check if queue is empty
 
 ## Visualization Example
-
 ```python
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -39,8 +38,8 @@ def visualize_queue(queue_items):
     
     plt.title("Queue Visualization")
     plt.show()
-
-    ## API Reference
+```
+## API Reference
 - `enqueue(item)`: Add to back
 - `dequeue()`: Remove from front
 - `peek()`: View front element

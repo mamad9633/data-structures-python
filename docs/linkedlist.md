@@ -18,24 +18,29 @@ from data_structures.linkedlist import LinkedList
 
 # Create list
 ll = LinkedList()
-
+```
 # Insert elements
+```python
 ll.insertAtBeginning(1)
 ll.insertAtEnd(2)
 ll.insertAfter(3, 1)
-
+```
 # Search for element
+```python
 found = ll.search(2)
-
+```
 # Delete element
+```python
 ll.deleteItem(1)
-
+```
 # Display list
+```python
 ll.traverse()
-
+```
 # Visualize
+```python
 ll.visualize()
-
+``` 
 ## API Reference
 - `insertAtBeginning(item)`: Insert at start
 - `insertAtEnd(item)`: Insert at end
