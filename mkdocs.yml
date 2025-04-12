@@ -1,0 +1,46 @@
+site_name: Data Structures Python
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Data Structures:
+    - Array: array.md
+    - LinkedList: linkedlist.md
+    - Queue: queue.md
+    - Stack: stack.md
+    - Tree: tree.md
+  - Examples:
+    - Array: 
+      - Documentation: examples/array_test.md
+      - Interactive Examples: examples/array_examples.ipynb
+    - LinkedList:
+      - Documentation: examples/linkedlist_test.md
+      - Interactive Examples: examples/linkedlist_examples.ipynb
+    - Queue:
+      - Documentation: examples/queue_test.md
+      - Interactive Examples: examples/queue_examples.ipynb
+    - Stack:
+      - Documentation: examples/stack_test.md
+      - Interactive Examples: examples/stack_examples.ipynb
+    - Tree:
+      - Documentation: examples/tree_test.md
+      - Interactive Examples: examples/tree_examples.ipynb
+  - Tutorial: tutorial.md
+
+plugins:
+  - search
+  - mkdocs-jupyter
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex
+  - admonition
+  - codehilite

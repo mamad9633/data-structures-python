@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: elhadji-datastructure-package
+Version: 0.1.2
+Summary: A collection of data structure implementations with visualization capabilities
+Home-page: https://github.com/yourusername/data_structures
+Author: Elhadji Mamadou
+Author-email: Elhadji Mamadou <your.email@example.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# Data Structures Package
+
+A comprehensive Python package implementing fundamental data structures with visualization capabilities.
+
+## Installation
+```python
+pip install elhadji-datastructure-package
+```
+## Features
+- Array implementation with dynamic resizing
+- Singly Linked List with node-based visualization
+- Queue (FIFO) with state visualization
+- Stack (LIFO) with vertical visualization
+- Binary Search Tree with tree structure visualization
+- All structures include interactive matplotlib visualizations
